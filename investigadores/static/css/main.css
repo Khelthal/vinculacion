@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #292929;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+.header {
+  padding: 50px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.nav ul a {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #292929;
+}
+
+.login-block {
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.login-block .image {
+  height: 500px;
+}
+
+.login-frame {
+  width: 700px;
+  height: 500px;
+  padding: 50px;
+  background-color: #83292B;
+}
+.login-frame h1 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.login-frame label {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+}
+.login-frame input {
+  margin-bottom: 10px;
+}
+.login-frame button {
+  margin-top: 60px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #363636;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 22px;
+}
+.login-frame button:hover {
+  background-color: #4f4f4f;
+}
+
+.wave-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.wave-bar .wave1 {
+  width: 40%;
+  height: 100%;
+  border-radius: 0px 100% 0px 0px;
+  transform: translate(0%, 10%);
+  background-color: #83292B;
+}
+.wave-bar .wave2 {
+  width: 30%;
+  height: 100%;
+}
+.wave-bar .wave3 {
+  width: 30%;
+  height: 100%;
+  border-radius: 100% 0px 0px 0px;
+  transform: translate(0%, 10%);
+  background-color: #83292B;
+}
+
+.wave-bar-down {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #83292B;
+}
+.wave-bar-down .wave1 {
+  width: 39.9%;
+  height: 100%;
+}
+.wave-bar-down .wave2 {
+  width: 30.2%;
+  height: 100%;
+  border-radius: 0px 0px 100% 100%;
+  transform: translate(0%, -50%);
+  background-color: #FFFFFF;
+}
+.wave-bar-down .wave3 {
+  width: 29.9%;
+  height: 100%;
+}
+
+.explain-block {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #83292B;
+}
+.explain-block h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.explain-block h2 {
+  color: #FFFFFF;
+}
+
+.cards-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.explain-card {
+  width: 350px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  transform: rotate(0deg) scale(1);
+  transition: transform 0.5s;
+}
+.explain-card:hover {
+  transform: rotate(-10deg) scale(1.1);
+  transition: transform 0.5s;
+}
+
+.card-image {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+.card-text h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+.card-text h1 {
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.promo h1 {
+  margin-bottom: 100px;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.promo-field {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.promo-field .promo-image {
+  height: 450px;
+}
+.promo-field .promo-text {
+  text-align: justify;
+  width: 600px;
+  margin: 30px 50px;
+}
+.promo-field p {
+  font-size: 22px;
+}
+
+.footer {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #455A64;
+}
+.footer .footer-block {
+  width: 400px;
+  margin: 40px;
+}
+.footer .footer-block h2 {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.footer .footer-block p {
+  font-size: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.footer .footer-block ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-block li {
+  font-size: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.css.map */
